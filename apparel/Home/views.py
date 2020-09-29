@@ -3,6 +3,7 @@ from .forms import ContactForm
 from apparel import settings
 from django.core.mail import send_mail
 from django.contrib import messages
+from .forms import UserForm, ProfileForm
 # Create your views here.
 
 def Home(request):
@@ -36,3 +37,27 @@ def contact(request):
         form = ContactForm()
     template = 'Home/contact.html'
     return render(request, template, {'form': form})
+
+
+
+# def profile(request):
+#     template = 'Home/profile.html'
+#     return render(request, template, {})
+
+def profile(request):
+    template = 'Home/profile.html'
+    if request.method == 'POST':
+        user_form = UserForm(request.POST or None, request.FILES or None, instance=request.user)
+        profile_form = ProfileForm(request.POST or None, request.FILES or None, instance=request.user.profile)
+        if user_form.is_valid() and profile_form.is_valid():
+            user_form.save()
+            profile_form.save()
+            messages.success(request, "Your Profile is Updated Successfully..")
+            return redirect('Home:Home')
+        else:
+            messages.error(request, 'Please Correct the error below')
+    else:
+        user_form = UserForm(instance=request.user)
+        profile_form = ProfileForm(instance=request.user.profile)
+    return render(request, template, {'user_form': user_form,
+                                      'profile_form': profile_form})

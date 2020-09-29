@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6835c15c-e9eb-4e1c-91b7-a5567f064c12" name="Default Changelist" comment="" />
+    <list default="true" id="6835c15c-e9eb-4e1c-91b7-a5567f064c12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vendor/mycsv.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/account/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apparel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/apparel/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apparel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apparel/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,26 +29,32 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ewJF6noQA8AYCB8A6Ez2b0OjlX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Final Year Project/Kleider-master/Kleider-master/Kleider-master" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../df2gspread-master/df2gspread-master" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ronak\Desktop\Proj\apparel\Templates\Home" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ronak\Desktop\Proj\apparel\Templates\Vendor" />
       <recent name="C:\Users\ronak\Desktop\Proj\apparel\Templates\Home" />
       <recent name="C:\Users\ronak\Desktop\Proj\apparel\static\static\js" />
       <recent name="C:\Users\ronak\Desktop\Proj\apparel\static\static\js\vendor" />
       <recent name="C:\Users\ronak\Desktop\Proj\apparel\Templates\account" />
-      <recent name="C:\Users\ronak\Desktop\Proj\apparel\Templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ronak\Desktop\Proj\apparel\Templates\Home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,10 +114,30 @@
       <workItem from="1595418856319" duration="2117000" />
       <workItem from="1595481956023" duration="17223000" />
       <workItem from="1595567431601" duration="1805000" />
+      <workItem from="1596107245559" duration="4774000" />
+      <workItem from="1596123439261" duration="1779000" />
+      <workItem from="1596125320182" duration="145000" />
+      <workItem from="1596172982840" duration="19275000" />
+      <workItem from="1596367543175" duration="2625000" />
+      <workItem from="1596789736854" duration="1321000" />
+      <workItem from="1596792881390" duration="58000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
